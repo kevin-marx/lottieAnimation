@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		72CDF50122EF564000AC4179 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CDF4FF22EF564000AC4179 /* Main.storyboard */; };
 		72CDF50322EF564100AC4179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72CDF50222EF564100AC4179 /* Assets.xcassets */; };
 		72CDF50622EF564100AC4179 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72CDF50422EF564100AC4179 /* LaunchScreen.storyboard */; };
+		72CDF50E22EF63A900AC4179 /* folderani.json in Resources */ = {isa = PBXBuildFile; fileRef = 72CDF50D22EF63A900AC4179 /* folderani.json */; };
 		C3669CDF03768B7D521B649F /* Pods_lottieAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5A8C7E3969D6B79340B232 /* Pods_lottieAnimation.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		72CDF50222EF564100AC4179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72CDF50522EF564100AC4179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72CDF50722EF564100AC4179 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72CDF50D22EF63A900AC4179 /* folderani.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = folderani.json; path = "../../../../../../../../../../System/Volumes/Data/Users/kmarx/Library/CloudStorage/iCloud Drive/Documents/Codebase/Xcode Files/lottieAnimation/folderani.json"; sourceTree = "<group>"; };
 		C1CEA25FADA361214B02774D /* Pods-lottieAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottieAnimation.debug.xcconfig"; path = "Target Support Files/Pods-lottieAnimation/Pods-lottieAnimation.debug.xcconfig"; sourceTree = "<group>"; };
 		CBCC243262384CD7476C746F /* Pods-lottieAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lottieAnimation.release.xcconfig"; path = "Target Support Files/Pods-lottieAnimation/Pods-lottieAnimation.release.xcconfig"; sourceTree = "<group>"; };
 		EC5A8C7E3969D6B79340B232 /* Pods_lottieAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_lottieAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +68,7 @@
 				72CDF4F922EF564000AC4179 /* AppDelegate.swift */,
 				72CDF4FB22EF564000AC4179 /* SceneDelegate.swift */,
 				72CDF4FD22EF564000AC4179 /* ViewController.swift */,
+				72CDF50D22EF63A900AC4179 /* folderani.json */,
 				72CDF4FF22EF564000AC4179 /* Main.storyboard */,
 				72CDF50222EF564100AC4179 /* Assets.xcassets */,
 				72CDF50422EF564100AC4179 /* LaunchScreen.storyboard */,
@@ -88,7 +91,6 @@
 				C1CEA25FADA361214B02774D /* Pods-lottieAnimation.debug.xcconfig */,
 				CBCC243262384CD7476C746F /* Pods-lottieAnimation.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -154,6 +156,7 @@
 			files = (
 				72CDF50622EF564100AC4179 /* LaunchScreen.storyboard in Resources */,
 				72CDF50322EF564100AC4179 /* Assets.xcassets in Resources */,
+				72CDF50E22EF63A900AC4179 /* folderani.json in Resources */,
 				72CDF50122EF564000AC4179 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
