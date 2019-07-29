@@ -19,8 +19,8 @@ class ViewController: UIViewController {
         
         animationView.frame = CGRect(x: 0, y: 0, width: 400, height: 200)
         animationView.center = self.view.center
-        animationView.contentMode = .scaleAspectFill
-        
+        animationView.contentMode = .center
+        animationView.animationSpeed = 2.0
         animationView.loopMode = .autoReverse
         
         view.addSubview(animationView)
